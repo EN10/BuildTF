@@ -9,7 +9,7 @@ Repo:
 
 Update:
 
-    Git Pull
+    git pull
 
 Bazel:
 
@@ -32,4 +32,6 @@ Compiles 3,415 files
     
 Ref:
 
-https://github.com/EN10/TensorFlow-For-Poets
+* https://github.com/EN10/TensorFlow-For-Poets
+
+* https://www.tensorflow.org/install/install_sources#clone_the_tensorflow_repository
