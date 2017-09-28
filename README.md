@@ -2,7 +2,7 @@ Prebuilt Binaries:
 
 https://github.com/lakshayg/tensorflow-build
 
-Build:
+Repo:
     
     git clone https://github.com/tensorflow/tensorflow 
     cd tensorflow
@@ -27,6 +27,8 @@ https://docs.bazel.build/versions/master/install-ubuntu.html#install-with-instal
 Build Tensorflow:
 
     bazel build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
+    
+Compiles 3,415 files
     
 Ref:
 
