@@ -28,7 +28,7 @@ https://github.com/bazelbuild/bazel/releases
 
 Build Tensorflow:
 
-    bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
+    bazel build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
     
 Ref:
 
