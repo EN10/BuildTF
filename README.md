@@ -32,7 +32,11 @@ Build Tensorflow:
     bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
     
 Compiles 3,415 files
-    
+
+### Install Tensorflow
+
+sudo pip install --ignore-installed --upgrade tensorflow-1.3.0-cp27-cp27mu-linux_x86_64.whl
+
 Ref:
 
 * https://github.com/EN10/TensorFlow-For-Poets
