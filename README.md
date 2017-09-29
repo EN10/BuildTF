@@ -28,6 +28,8 @@ Build Tensorflow:
 
     bazel build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
     
+    bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+    
 Compiles 3,415 files
     
 Ref:
