@@ -28,6 +28,8 @@ Update:
 ### Build Tensorflow:
 
     bazel --batch build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
+
+Compiles 3,415 files?
     
 Error:
 
@@ -37,8 +39,6 @@ Error:
 Build a `.whl` file:
     
     bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
-    
-Compiles 3,415 files
 
 ### Install Tensorflow
 
