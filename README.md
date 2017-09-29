@@ -27,14 +27,19 @@ Update:
 
 ### Build Tensorflow:
 
+    ./configure
+
     bazel --batch build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
 
 Compiles 3,415 files?
     
 Error:
 
-    Killed non-responsive server process
-    bazel --batch build 
+Killed non-responsive server process
+    `bazel --batch build`
+    
+Python Configuration Error: 'PYTHON_BIN_PATH' environment variable is not set
+    `./configure`
 
 Build a `.whl` file:
     
