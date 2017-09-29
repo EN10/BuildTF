@@ -29,6 +29,13 @@ Update:
 
     bazel --batch build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
     
+Error:
+
+    Killed non-responsive server process
+    bazel --batch build 
+
+Build a `.whl` file:
+    
     bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
     
 Compiles 3,415 files
