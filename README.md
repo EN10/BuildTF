@@ -2,7 +2,11 @@
 
 * [Build Tensorflow](https://www.tensorflow.org/install/install_sources#clone_the_tensorflow_repository)
 
-* [Prebuilt Binaries](https://github.com/lakshayg/tensorflow-build)
+### Prebuilt Binaries:
+
+* [lakshayg](https://github.com/lakshayg/tensorflow-build)
+
+* [mind](https://github.com/mind/wheels)
 
 ### Repo:
     
