@@ -44,7 +44,7 @@ Update:
 
     bazel build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
 
-Compiles 3,415 files?
+Compiles 3,436 files?
     
 Error:
 
@@ -71,4 +71,3 @@ Build a `.whl` file:
 Ref:
 
 * https://github.com/EN10/TensorFlow-For-Poets
-
