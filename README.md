@@ -2,6 +2,11 @@
 
 * [Build Tensorflow](https://www.tensorflow.org/install/install_sources#clone_the_tensorflow_repository)
 
+### Pip Install
+Tested on cs50.io:  
+`sudo pip install -U pip`  
+`sudo pip install tensorflow`
+
 ### Prebuilt Binaries:
 
 * [lakshayg](https://github.com/lakshayg/tensorflow-build)
