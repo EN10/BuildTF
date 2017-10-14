@@ -38,6 +38,10 @@ Update:
 
     ./configure
 
+    bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
+
+**Performance :** `SSE4.1 SSE4.2 AVX AVX2 FMA`  
+
     bazel build --config=opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
 
 Compiles 3,415 files?
