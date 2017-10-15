@@ -9,6 +9,9 @@ Tested on cs50.io:
 
 ### Prebuilt Binaries:
 
+* [EN10 - 1.4.0rc0](https://github.com/EN10/BuildTF/blob/master/tensorflow-1.4.0rc0-cp27-none-linux_x86_64.whl)  
+Built in Docker: `docker pull ubuntu:trusty`
+
 * [lakshayg](https://github.com/lakshayg/tensorflow-build)
 
 * [mind](https://github.com/mind/wheels)
