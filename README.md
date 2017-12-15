@@ -42,17 +42,12 @@ On Ubuntu 14.04 LTS you'll have to use a PPA:
     sudo apt-get update && sudo apt-get install bazel
     sudo apt-get upgrade bazel
 
-On Docker:
+On Docker Trusty:
 
-    apt install wget
-    wget https://github.com/bazelbuild/bazel/releases/download/0.8.1/bazel-0.8.1-installer-linux-x86_64.sh
-    chmod +x bazel-0.8.1-installer-linux-x86_64.sh
-    ./bazel-0.8.1-installer-linux-x86_64.sh
-    export PATH="$PATH:$HOME/bin"
+    apt update
+    apt install git software-properties-common python-software-properties curl
     
-    apt install python-pip
-    pip install -U pip
-    pip install tensorflow
+Then as above.
 
 ### Build Tensorflow:
 
