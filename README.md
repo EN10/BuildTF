@@ -83,7 +83,11 @@ Build a `.whl` file:
 
 ### Install Tensorflow
 
-    sudo pip install --ignore-installed --upgrade tensorflow-1.3.0-cp27-cp27mu-linux_x86_64.whl
+    sudo pip install --ignore-installed --upgrade tensorflow-1.4.0-cp27-none-linux_x86_64.whl
+
+### Test Build
+
+    python run.py
 
 ### Working Builds
 
