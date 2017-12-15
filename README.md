@@ -31,6 +31,11 @@ Update:
 
     sudo apt-get install openjdk-8-jdk
 
+On Docker Trusty:
+
+    apt update
+    apt install git software-properties-common python-software-properties curl
+
 On Ubuntu 14.04 LTS you'll have to use a PPA:
     
     sudo add-apt-repository ppa:webupd8team/java
@@ -41,13 +46,6 @@ On Ubuntu 14.04 LTS you'll have to use a PPA:
 
     sudo apt-get update && sudo apt-get install bazel
     sudo apt-get upgrade bazel
-
-On Docker Trusty:
-
-    apt update
-    apt install git software-properties-common python-software-properties curl
-    
-Then as above.
 
 ### Build Tensorflow:
 
