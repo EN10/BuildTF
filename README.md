@@ -49,6 +49,8 @@ On Ubuntu 14.04 LTS you'll have to use a PPA:
 
 ### Build Tensorflow:
 
+    sudo apt install python-numpy python-dev python-pip python-wheel
+    
     ./configure
 
     bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
